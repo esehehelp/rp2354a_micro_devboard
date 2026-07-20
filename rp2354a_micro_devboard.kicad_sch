@@ -4900,6 +4900,256 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PCM_Diode_Schottky_AKL:RB521S-30"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "RB521S-30"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PCM_Diode_SMD_AKL:D_SOD-523"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://pdf.icgoo.net/productinfo/allpdf/e384d590-e1ec-3fe9-a3d3-7682eb2dfe94.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SOD-523 Schottky diode, 30V, 200mA, Alternate KiCAD Library"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode Schottky RB521S-30"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RB521S-30_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy 1.27 0) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -0.762) (xy 1.905 -1.27) (xy 1.27 -1.27) (xy 1.27 1.27) (xy 0.635 1.27) (xy 0.635 0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "RB521S-30_0_2"
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.889 -0.889) (xy -1.778 0) (xy 0.889 0.889) (xy 0 -1.778) (xy -0.889 -0.889)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.778) (xy 1.778 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.778) (xy -0.381 1.397) (xy 0 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 0) (xy 2.159 0.381) (xy 1.778 0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "RB521S-30_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "RB521S-30_1_2"
+				(pin passive line
+					(at -2.54 -2.54 0)
+					(length 0)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 2.54 180)
+					(length 0)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PCM_Diode_Schottky_AKL:SS32"
 			(pin_numbers
 				(hide yes)
@@ -7216,6 +7466,12 @@
 		(uuid "9788853d-ac30-4b46-8884-9623efb1e7ba")
 	)
 	(junction
+		(at 248.92 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ce09bb1-0752-4dc9-9f80-2048b76cb407")
+	)
+	(junction
 		(at 92.71 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7238,12 +7494,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a7c1ca37-951e-43f3-8f32-24f50f119922")
-	)
-	(junction
-		(at 248.92 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aacebb89-cf52-4d61-b894-100262bc5ac4")
 	)
 	(junction
 		(at 78.74 82.55)
@@ -7969,16 +8219,6 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 30.48) (xy 250.19 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46ffd245-bf79-4545-aa21-1a1c87df228f")
-	)
-	(wire
-		(pts
 			(xy 48.26 86.36) (xy 48.26 87.63)
 		)
 		(stroke
@@ -8526,6 +8766,16 @@
 			(type default)
 		)
 		(uuid "920d9897-09e9-45a7-a046-61ecef036fd4")
+	)
+	(wire
+		(pts
+			(xy 248.92 30.48) (xy 250.19 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "925886c4-a17c-447e-85bb-4838146be8b3")
 	)
 	(wire
 		(pts
@@ -10023,7 +10273,7 @@
 	)
 	(global_label "IO_VBUS"
 		(shape input)
-		(at 250.19 30.48 0)
+		(at 257.81 30.48 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10033,7 +10283,7 @@
 		)
 		(uuid "6fa99c77-1c3e-4dec-83b6-4d1d6f63d89c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 260.9767 30.48 0)
+			(at 268.5967 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11206,6 +11456,74 @@
 				)
 				(justify left)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Diode_Schottky_AKL:RB521S-30")
+		(at 254 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "05734d66-43f6-49b6-a0cd-74550706638d")
+		(property "Reference" "D2"
+			(at 254.3175 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RB521S-30"
+			(at 254.3175 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Diode_SMD_AKL:D_SOD-523"
+			(at 254 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://pdf.icgoo.net/productinfo/allpdf/e384d590-e1ec-3fe9-a3d3-7682eb2dfe94.pdf"
+			(at 254 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SOD-523 Schottky diode, 30V, 200mA, Alternate KiCAD Library"
+			(at 254 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "16043140-d59a-4ab0-b39c-b33174414c70")
+		)
+		(pin "2"
+			(uuid "243d93e2-d3c1-4f81-9249-bb51cf7204ae")
+		)
+		(instances
+			(project "rp2354a_micro_devboard"
+				(path "/2112ecc0-ac9a-4b37-bfed-d4d93ecb9ee7"
+					(reference "D2")
+					(unit 1)
+				)
 			)
 		)
 	)
